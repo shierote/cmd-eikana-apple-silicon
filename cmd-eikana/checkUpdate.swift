@@ -14,14 +14,14 @@
 import Cocoa
 
 func checkUpdate(_ callback: ((_ isNewVer: Bool?) -> Void)? = nil) {
-    let url = URL(string: "https://ei-kana.appspot.com/update.json")!
+    let url = URL(string: "https://shierote.github.io/cmd-eikana/update.json")!
     let request = URLRequest(url: url)
     
     let handler = { (data:Data?, res:URLResponse?, error:Error?) -> Void in
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
         var newVersion = ""
         var description = ""
-        var url = "https://ei-kana.appspot.com"
+        var url = "https://shierote.github.io/cmd-eikana/"
         
         do {
             if let data = data {

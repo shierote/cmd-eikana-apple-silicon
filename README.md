@@ -3,7 +3,11 @@ This application switches alphanumeric / kana when pushing left and right comman
 It can also be used as a key remapping application that works even with macOS Sierra by fiddling with settings in the preferences window.
 
 ## Download
-Download latest release at https://ei-kana.appspot.com
+Download latest release from the GitHub Pages site:
+https://shierote.github.io/cmd-eikana/
+
+## Build from source
+Release archives are configured as Universal 2 binaries (`arm64` + `x86_64`) for Apple Silicon and Intel Macs.
 
 ## How to use (at first launch)
 ⌘ Open the .app. Since it is unsigned, please open it by right clicking and choosing "Open".
@@ -32,8 +36,12 @@ MIT License
 設定をいじることでmacOS Sierraでも動くキーリマップアプリとしても利用できます。  
 
 ## ダウンロード
-https://ei-kana.appspot.com/  
-ここからダウンロードしてください
+GitHub Pages の配布ページからダウンロードしてください。
+
+https://shierote.github.io/cmd-eikana/
+
+## ソースからビルド
+Release の Archive は Apple Silicon / Intel Mac 両対応の Universal 2 バイナリ（`arm64` + `x86_64`）としてビルドされる設定です。
 
 ## 使い方（初回起動時）
 
