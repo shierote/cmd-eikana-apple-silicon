@@ -4,7 +4,7 @@ It can also be used as a key remapping application that works even with macOS Si
 
 ## Download
 Download latest release from the GitHub Pages site:
-https://shierote.github.io/cmd-eikana/
+https://shierote.github.io/cmd-eikana-apple-silicon/
 
 ## Build from source
 Release archives are configured as Universal 2 binaries (`arm64` + `x86_64`) for Apple Silicon and Intel Macs.
@@ -38,7 +38,7 @@ MIT License
 ## ダウンロード
 GitHub Pages の配布ページからダウンロードしてください。
 
-https://shierote.github.io/cmd-eikana/
+https://shierote.github.io/cmd-eikana-apple-silicon/
 
 ## ソースからビルド
 Release の Archive は Apple Silicon / Intel Mac 両対応の Universal 2 バイナリ（`arm64` + `x86_64`）としてビルドされる設定です。
