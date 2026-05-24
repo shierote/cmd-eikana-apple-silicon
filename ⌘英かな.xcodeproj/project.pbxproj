@@ -30,6 +30,16 @@
 		62FE51631DC75ECE0037B8D1 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FE51621DC75ECE0037B8D1 /* AppData.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		62A1B2C31EE0000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6294280F1D387503001BD4E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620E0B3F1D9F2F8F0067F88B;
+			remoteInfo = "cmd-eikana-helper";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6289285F1D99021700313C05 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -186,6 +196,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				62A1B2C41EE0000000000001 /* PBXTargetDependency */,
 			);
 			name = "⌘英かな";
 			productName = StatusBarApp;
@@ -290,6 +301,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62A1B2C41EE0000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620E0B3F1D9F2F8F0067F88B /* cmd-eikana-helper */;
+			targetProxy = 62A1B2C31EE0000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		620E0B4A1D9F2F8F0067F88B /* MainMenu.xib */ = {
