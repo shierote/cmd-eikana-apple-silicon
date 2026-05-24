@@ -1,13 +1,15 @@
 # Eikana (⌘英かな)
+Apple Silicon ready: this build runs natively on M1/M2/M3/M4 Macs and remains compatible with Intel Macs as a Universal 2 app.
+
 This application switches alphanumeric / kana when pushing left and right command keys.
 It can also be used as a key remapping application that works even with macOS Sierra by fiddling with settings in the preferences window.
 
 ## Download
-Download latest release from the GitHub Pages site:
+Download the Apple Silicon compatible Universal 2 release from the GitHub Pages site:
 https://shierote.github.io/cmd-eikana-apple-silicon/
 
 ## Build from source
-Release archives are configured as Universal 2 binaries (`arm64` + `x86_64`) for Apple Silicon and Intel Macs.
+Release archives are configured as Universal 2 binaries (`arm64` + `x86_64`) for native Apple Silicon support and Intel Mac compatibility.
 
 ## How to use (at first launch)
 ⌘ Open the .app. Since it is unsigned, please open it by right clicking and choosing "Open".
@@ -31,17 +33,18 @@ MIT License
 
 
 # ⌘英かな
+Apple Silicon対応版です。M1/M2/M3/M4 Macでネイティブ動作し、Intel Macにも対応する Universal 2 アプリとして配布しています。
 
 左右のコマンドキーを単体で押した時に英数/かなを切り替えるようにするアプリです。  
 設定をいじることでmacOS Sierraでも動くキーリマップアプリとしても利用できます。  
 
 ## ダウンロード
-GitHub Pages の配布ページからダウンロードしてください。
+Apple Silicon対応の Universal 2 版を GitHub Pages の配布ページからダウンロードしてください。
 
 https://shierote.github.io/cmd-eikana-apple-silicon/
 
 ## ソースからビルド
-Release の Archive は Apple Silicon / Intel Mac 両対応の Universal 2 バイナリ（`arm64` + `x86_64`）としてビルドされる設定です。
+Release の Archive は Apple Silicon ネイティブ対応 / Intel Mac 互換の Universal 2 バイナリ（`arm64` + `x86_64`）としてビルドされる設定です。
 
 ## 使い方（初回起動時）
 
