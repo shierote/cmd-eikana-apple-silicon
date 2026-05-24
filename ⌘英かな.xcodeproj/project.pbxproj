@@ -70,7 +70,7 @@
 		624BF4C91DD182F500A70E2C /* MediaKeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaKeyEvent.swift; sourceTree = "<group>"; };
 		627265F51D3CC84000703F85 /* KeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyEvent.swift; sourceTree = "<group>"; };
 		628908ED1DADB0B6008EF46A /* KeyMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyMapping.swift; sourceTree = "<group>"; };
-		629428171D387503001BD4E9 /* ⌘英かな.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "⌘英かな.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629428171D387503001BD4E9 /* eikana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eikana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6294281A1D387503001BD4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6294281C1D387503001BD4E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6294281E1D387503001BD4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		629428181D387503001BD4E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				629428171D387503001BD4E9 /* ⌘英かな.app */,
+				629428171D387503001BD4E9 /* eikana.app */,
 				620E0B401D9F2F8F0067F88B /* cmd-eikana-helper.app */,
 			);
 			name = Products;
@@ -199,8 +199,8 @@
 				62A1B2C41EE0000000000001 /* PBXTargetDependency */,
 			);
 			name = "⌘英かな";
-			productName = StatusBarApp;
-			productReference = 629428171D387503001BD4E9 /* ⌘英かな.app */;
+			productName = eikana;
+			productReference = 629428171D387503001BD4E9 /* eikana.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -489,7 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.imasanari.cmd-eikana";
-				PRODUCT_NAME = "⌘英かな";
+				PRODUCT_NAME = eikana;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -504,7 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.imasanari.cmd-eikana";
-				PRODUCT_NAME = "⌘英かな";
+				PRODUCT_NAME = eikana;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -1,5 +1,5 @@
 {
-  "version": "2.2.4",
-  "description": "Apple Silicon compatible Universal 2 release. Runs natively on M1/M2/M3/M4 Macs and remains compatible with Intel Macs.",
-  "url": "https://shierote.github.io/cmd-eikana-apple-silicon/downloads/cmd-eikana-2.2.4-universal.zip"
+  "version": "2.2.5",
+  "description": "Apple Silicon compatible Universal 2 release. The app bundle is now named eikana.app.",
+  "url": "https://shierote.github.io/cmd-eikana-apple-silicon/downloads/eikana-2.2.5-universal.zip"
 }

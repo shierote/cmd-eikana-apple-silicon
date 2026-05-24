@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "629428161D387503001BD4E9"
-               BuildableName = "&#x2318;&#x82f1;&#x304b;&#x306a;.app"
+               BuildableName = "eikana.app"
                BlueprintName = "&#x2318;&#x82f1;&#x304b;&#x306a;"
                ReferencedContainer = "container:&#x2318;&#x82f1;&#x304b;&#x306a;.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "629428161D387503001BD4E9"
-            BuildableName = "&#x2318;&#x82f1;&#x304b;&#x306a;.app"
+            BuildableName = "eikana.app"
             BlueprintName = "&#x2318;&#x82f1;&#x304b;&#x306a;"
             ReferencedContainer = "container:&#x2318;&#x82f1;&#x304b;&#x306a;.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "629428161D387503001BD4E9"
-            BuildableName = "&#x2318;&#x82f1;&#x304b;&#x306a;.app"
+            BuildableName = "eikana.app"
             BlueprintName = "&#x2318;&#x82f1;&#x304b;&#x306a;"
             ReferencedContainer = "container:&#x2318;&#x82f1;&#x304b;&#x306a;.xcodeproj">
          </BuildableReference>
